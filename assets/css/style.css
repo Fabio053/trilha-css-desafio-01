@@ -1,0 +1,259 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    
+    background-image: linear-gradient(to bottom, #00000099, #ffffff00, #00000099 ), url('../images/banner.png');
+    height: 605px;
+    gap: 0px;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    opacity: 0px;
+    float: right;
+    width: 100%;
+    display: flex;                  
+    justify-content: center;        
+    align-items: center;            
+    text-align: center;
+}
+
+.banner-content{
+    width: 510px;
+    height: 393px;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.banner-content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.banner-content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #FFFFFF;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner-content button{
+    width: Fixed 326px;
+    height: 57px;
+    top: 473px;
+    left: 557px;
+    padding: 19px 91px 19px 91px;
+    gap: 31px;
+    opacity: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(49, 168, 221, 1);
+    background-clip: text;
+    color: transparent;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%) 1;
+
+
+}
+
+.logo{
+    top: 27px;
+    left: 131px;
+    gap: 0px;
+    opacity: 0px;
+    display: inline-block;
+    border-radius: 50%; 
+    object-fit: cover;
+    box-shadow: inset 0 0 50px 20px #00000033;
+}
+
+#course-content{
+    justify-content: center;        
+    align-items: center;            
+    text-align: center;
+}
+
+#course-content h2{
+    font-family: 'Raleway', sans-serif;
+    background: rgba(51, 168, 219, 1);
+    background-clip: text;
+    color: transparent;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#course-content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(255, 255, 255, 1);
+    background-clip: text;
+    color: transparent;
+
+    
+}
+.modules-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;  
+    align-items: center;       
+    height: 50vh;   
+}
+.module {
+    width: 535px;
+    height: 51px;
+    padding: 16px 127px;
+    border-radius: 57px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    background: rgba(37, 37, 37, 1);
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+    opacity: 1; 
+    font-family: 'Raleway', sans-serif;
+    display: flex;       
+    justify-content: center;     
+    align-items: center;         
+    text-align: center;           
+    background: white;
+    background-clip: text;
+    color: transparent;
+}
+
+.module span{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: lightblue;
+    background-clip: text;
+    color: transparent;
+}
+
+#transform-world {
+    background-image: url(../images/woman-code.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top center; 
+    width: 100%;
+    height: 90vh; 
+    max-height: 800px;
+}
+
+#transform-world p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(255, 255, 255, 1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 
+        10px 10px 20px rgba(51, 168, 219, 0.5),
+        -10px -10px 20px rgba(51, 168, 219, 0.5); 
+    width: 80%;  
+    max-width: 350px;  
+    height: auto;  
+    padding: 20px;  
+    position: relative; 
+    top: 300px;  
+    left: 250px; 
+}
+
+#professional-challenges{
+    justify-content: center;        
+    align-items: center;            
+    text-align: center;
+}
+
+#professional-challenges h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(51, 168, 219, 1);
+    background-clip: text;
+    color: transparent;
+    width: 100%;
+    position: relative;
+    width: 50%;
+    left: 500px;
+}
+
+#professional-challenges p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(255, 255, 255, 1);
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    left: 600px;
+    width: 40%;
+}
+
+.dio-logo{
+    position: relative;
+    left: 800px;
+    justify-content: center;        
+    align-items: center;            
+    text-align: center;
+}
+
+footer p{
+    justify-content: center;        
+    align-items: center;            
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: rgba(255, 255, 255, 1);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+
+
